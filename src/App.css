@@ -1,3 +1,8 @@
+body{
+ background: rgb(25, 53, 80);
+ background: linear-gradient(90deg, rgba(25, 53, 80, 1) 7%, rgba(129, 84, 237, 1) 43%, rgba(46, 188, 217, 1) 83%);
+  }
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title{
+  font-family: 'Bangers', cursive;
+  font-size: 72px;
+  /* color: cornflowerblue; */
+  color: orange;
+  margin: 15px;
 }
